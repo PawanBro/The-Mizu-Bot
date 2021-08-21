@@ -74,16 +74,18 @@ buttons = [
         InlineKeyboardButton(text="📢Updates Channel", url="https://t.me/MizuUpdates"),
         InlineKeyboardButton(text="👥 Support Group", url="https://t.me/MizuSupport_Official"),
     ],
-    [
-        InlineKeyboardButton(text="📚Music Group", url="https://t.me/mw_song_grup"),
-        
-    ],
-    [
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+ [
+        InlineKeyboardButton(
+            text="Developer", url="t.me/imtheekshana"
+        ),
+        InlineKeyboardButton(
+            text="❔ Help", url="http://t.me/TheMizuBot?start=help"
+        ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Mizu to your group ➕", url="http://t.me/TheMizuBot?startgroup=true"
+            text="➕ Add EzilaX to your group ➕",
+            url="t.me/TheMizuBot?startgroup=true",
         ),
     ],
 ]
